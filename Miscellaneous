@@ -1,0 +1,46 @@
+"""Hello welcome to Omar's RPG SPACE SHIP game where you exprlore and do tasks in a space ship traveling through the cosmos!!""" 
+
+"""Lets get started by choosing a character"""
+
+from Menu import *
+
+menu()
+
+"""
+Astronaut:
+    *floating speed 80
+    *can go anywhere on map
+    *skills: fixing space ship, able to go outside ship, access to cctv footage
+
+Scientist:
+    *floating speed 88
+    *Can go in lab/medbay and make chemicals/medicine/treat people
+    *skills: making chemicals, give directions to mechanic, have special teleporting    portals
+
+Mechanic:
+    *floating speed 60
+    *can go into engine room and do maintenance/refuelling/fixing.
+    *skills: gives orders to astronaut to make space walks, controls cctv surveillance
+
+Defence operator:
+    *floating speed 93
+    *can use the defence room and kill aliens
+    *skills: exclusive access to defence room, can use minigun and gravity proof rpg
+
+Pilot:
+    *flying speed 40
+    * only person able to fly and control plane
+    *skills: exclusive rights to the cockpit and control room, has access to cctv footage, can communicate with aliens
+"""
+
+Map:
+*cockpit
+descrption: Where you control the ship
+*kitchen
+descrption: where you cook for the crew
+*medbay
+descrption: where you make chemicals
+*engine room
+descrption: where you service the ship
+*defence room
+descrption: where you get guns
